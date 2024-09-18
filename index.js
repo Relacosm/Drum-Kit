@@ -48,6 +48,6 @@ function makesound(key){
 function buttonanimation(currentkey){
     var activebutton=document.querySelector("."+currentkey);
     activebutton.classList.add("pressed");
-    setTimeout(function(){activebutton.classList.remove("pressed");}, 200);
+    setTimeout(function(){activebutton.classList.remove("pressed");}, 100);
 
 }
